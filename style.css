@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttons {
+  /* background-color: azure; */
+  height: 35em;
+  width: 25em;
+  background-color: rgb(26, 172, 220);
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+/* Rows */
+
+.r1 {
+  background-color: rgb(26, 172, 220);
+  height: 4em;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.r2 {
+  background-color: rgb(26, 172, 220);
+  height: 4em;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.r3 {
+  background-color: rgb(26, 172, 220);
+  height: 4em;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.r4 {
+  background-color: rgb(26, 172, 220);
+  height: 4em;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.r5 {
+  background-color: rgb(26, 172, 220);
+  height: 4em;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+/* Buttons */
+
+.a {
+  width: 5em;
+  height: 4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: orange;
+}
+
+.b {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: forestgreen;
+}
+
+.c {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: royalblue;
+}
+
+.d {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: fuchsia;
+}
+
+.e {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: orange;
+}
+
+.f {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: forestgreen;
+}
+
+.g {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: royalblue;
+}
+
+.h {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: fuchsia;
+}
+
+.i {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: orange;
+}
+
+.j {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: forestgreen;
+}
+
+.k {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: royalblue;
+}
+
+.l {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: fuchsia;
+}
+
+.m {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: orange;
+}
+
+.n {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: forestgreen;
+}
+
+.o {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: royalblue;
+}
+
+.add-button {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: fuchsia;
+}
+
+.q {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: orange;
+}
+
+.r {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: forestgreen;
+}
+
+.s {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: royalblue;
+}
+
+.t {
+  width: 5em;
+  height: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: fuchsia;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  font: inherit;
+  transition:
+    transform 0.1s,
+    filter 0.1s;
+} /* Transition make the effect better bcoz without it button becomes smaller can check by    */
+
+/* Effects */
+
+button:hover {
+  filter: brightness(1.15);
+}
+
+button:active {
+  transform: scale(0.95);
+  filter: brightness(0.9);
+}
+
+#display {
+  background-color: #222;
+  color: #fff;
+  caret-color: #fff;
+  width: auto;
+  height: 14em;
+  cursor: pointer;
+  font-size: 50px;
+}
